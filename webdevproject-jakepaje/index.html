@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duquesne Incline Home Page</title>
+    
+    <!-- External styles and scripts -->
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Duquesne Incline</h1>
+        <p>Pittsburgh's Historic Cable Car Since 1877</p>
+
+        <!-- Navigation bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="views/visit.html">Visit</a>
+            <a href="views/history.html">History</a>
+            <a href="views/contact.html">Contact</a>
+        </nav>
+        
+        <!-- Logo image -->
+        <img src="static/Copy%20of%20DuqInclineLogo.png" alt="Duquesne Incline Logo" id="logo-image">   
+     </header>
+
+    <main>
+        <!-- Section for operating hours and ticket pricing -->
+        <section class="hours">
+            <h2>Hours</h2>
+            <ul>
+                <li>Monday - Sunday: 6:30 AM - 12:30 AM</li>
+                <li>Seasonal Changes: Open Same Hours 365 Days a Year!!!</li>
+            </ul>
+            <h2>Tickets</h2>
+            <ul>
+                <li>Adults (Ages 12-64) $2.50 Each Way or $5.00 Round Trip</li>
+                <li>(Ages 6-11) $1.25 Each Way or $2.50 Round Trip</li>
+                <li>Ticket Sales: No Reservation or Advanced Tickets</li>
+                <li>More ticket information available on the Visit Page</li>
+            </ul>
+        </section>
+
+        <!-- Slideshow and key information -->
+        <section class="key-info">
+            <div class="incline-image">
+                <div class="slideshow-container">
+                    <img class="slide" src="static/DSC05871-600x338.jpg" alt="Snowy Duquesne Incline">
+                    <img class="slide" src="static/images.jpg" alt="Incline During The Day">
+                    <img class="slide" src="static/1646702475677.pittsburgh_pa_incline.jpg" alt="Incline at Night">
+                </div>
+                <footer class="image-footer">
+                    Photos courtesy of Dustin McGrew, Visit PA, and Discover the Burgh
+                </footer>
+            </div>
+
+            <!-- Historical and key facts about the incline -->
+            <section class="info-box">
+                <h3>Key Information About The Incline</h3>
+                <ol>
+                    <li>Located on Pittsburgh's south side near Station Square, providing scenic city views.</li>
+                    <li>Originally built to transport coal workers and goods up Mount Washington.</li>
+                    <li>In continuous operation since 1877, making it one of the oldest inclines in the U.S.</li>
+                    <li>Features a museum at the top station covering the incline's history and cable car development.</li>
+                    <li>A popular tourist attraction known for breathtaking Pittsburgh skyline views.</li>
+                    <li>Operates daily, with services available throughout the year, offering panoramic views of Pittsburgh's downtown, rivers, and surrounding mountains.</li>
+                    <li>The incline's two cars are counterbalanced by a system of pulleys and cables, allowing it to transport passengers uphill at a 30-degree angle.</li>
+                    <li>Visitors can take a ride to the top of Mount Washington, where they can access incredible observation points with views of Pittsburgh's three rivers: the Allegheny, Monongahela, and Ohio.</li>
+                    <li>The Duquesne Incline is a National Historic Landmark and is recognized as a symbol of Pittsburgh's rich industrial heritage.</li>
+                </ol>
+            </section>
+        </section>
+
+        <!-- Embedded Google Map for location directions -->
+        <section class="directions">
+            <h2>Directions</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.453346122369!2d-80.02051064036257!3d40.439398788872204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af24753323%3A0x391d7b79fc54985b!2sDuquesne%20Incline!5e0!3m2!1sen!2sus!4v1743220568153!5m2!1sen!2sus" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+
+    <!-- Footer with copyright notice -->
+    <footer id="page-footer">
+        <p>&copy; 2025 Duquesne Incline. All rights reserved.</p>
+    </footer>
+</body>
+</html>

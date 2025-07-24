@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duquesne Incline Contact Page</title>
+    
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="../static/style.css">
+    
+    <!-- JavaScript file for interactive functionality -->
+    <script src="../static/script.js" defer></script>
+    
+    <!-- jQuery for additional JavaScript capabilities -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- External font for improved typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Duquesne Incline</h1>
+        <p>Pittsburgh's Historic Cable Car Since 1877</p>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="visit.html">Visit</a>
+            <a href="history.html">History</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <!-- Logo image -->
+        <img src="../static/Copy%20of%20DuqInclineLogo.png" alt="Duquesne Incline Logo" id="logo-image">   
+     </header>
+    
+    <main>
+        <section class="hours">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                
+                <!-- Physical address for parking -->
+                <div class="address">
+                    <h3>Parking</h3>
+                    <p>1197 West Carson St.<br>Pittsburgh, PA 15219</p>
+                </div>
+                
+                <!-- Contact details -->
+                <div class="phone">
+                    <h3>Phone Number:</h3>
+                    <p><a href="tel:+14123811665">412.381.1665</a></p>
+                </div>
+                
+                <div class="fax">
+                    <h3>Fax:</h3>
+                    <p>412.381.1943</p>
+                </div>
+                
+                <div class="email">
+                    <h3>Email:</h3>
+                    <p><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></p>
+                </div>
+        
+                <!-- Mailing address and accessibility info -->
+                <div class="mailing-address">
+                    <h3>Mailing Address and Wheelchair Accessibility</h3>
+                    <p>1220 Grandview Ave.<br>Pittsburgh, PA 15211</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="key-info">
+            <section class="info-box">
+                <h3>Join Our Mailing List</h3>
+                
+                <!-- Mailing list sign-up form with validation -->
+                <form id="mailing-list-form" action="#" method="post">
+                    <label for="name">Name (required):</label>
+                    <input type="text" id="name" name="name" required minlength="2" maxlength="100">
+                    
+                    <label for="email">Email Address (required):</label>
+                    <input type="email" id="email" name="email" required maxlength="100">
+            
+                    <label for="sms">Receive SMS Messages:</label>
+                    <input type="checkbox" id="sms" name="sms">
+            
+                    <label for="phone">Mobile Phone (optional, numbers only):</label>
+                    <input type="tel" id="phone" name="phone" pattern="\d*" minlength="10" maxlength="15">
+            
+                    <label for="zipcode">Zip Code (optional, 5 digits):</label>
+                    <input type="text" id="zipcode" name="zipcode" pattern="\d{5}" maxlength="5">
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </section>
+        
+        <section class="directions">
+            <h2>Click Image To Go To Inclince Trip Advisor Page</h2>
+            
+            <!-- Clickable image linking to TripAdvisor page -->
+            <a href="https://www.tripadvisor.com/Attraction_Review-g53449-d199154-Reviews-Duquesne_Incline-Pittsburgh_Pennsylvania.html" target="_blank">
+                <img src="../static/this-is-the-view-from.jpg" alt="Duquesne Incline" class="incline-image">
+            </a>
+            <footer class="contact-other-cite">Photo courtesy of Trip Advisor</footer>
+
+            <h2>Other Valuable Links Related to Duquesne Incline</h2>
+            
+            <!-- External resources about the incline -->
+            <ul class="valuable-links">
+                <li><a href="https://www.facebook.com/TheDuquesneIncline" target="_blank">Facebook - Duquesne Incline</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Duquesne_Incline" target="_blank">Wikipedia - Duquesne Incline</a></li>
+                <li><a href="https://www.yelp.com/biz/duquesne-incline-pittsburgh" target="_blank">Yelp - Duquesne Incline</a></li>
+                <li><a href="https://www.viator.com/Pittsburgh-attractions/Duquesne-Incline/d22639-a21677" target="_blank">Viator - Duquesne Incline</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- Footer with copyright information -->
+    <footer id="page-footer">
+        <p>&copy; 2025 Duquesne Incline. All rights reserved.</p>
+    </footer>
+</body>
+</html>
